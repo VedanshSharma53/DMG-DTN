@@ -1,0 +1,12 @@
+path: C:/Users/user/Desktop/DMG-DTN/DMG-DTN/datasets
+train: images/train
+val: images/val
+
+nc: 6
+names:
+  0: dent
+  1: scratch
+  2: crack
+  3: glass shatter
+  4: lamp broken
+  5: tire flat

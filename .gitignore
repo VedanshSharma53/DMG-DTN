@@ -1,0 +1,56 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# -----------------------
+# YOLO / Model Weights
+# -----------------------
+*.pt
+*.onnx
+*.engine
+*.yaml.cache
+
+# Prevent accidentally committing large trained models
+runs/
+runs/*
+
+# -----------------------
+# Datasets
+# -----------------------
+datasets/
+datasets/*
+
+# If you have custom dataset configs
+!data.yaml      # keep this file
+
+# -----------------------
+# VSCode
+# -----------------------
+.vscode/
+*.code-workspace
+
+# -----------------------
+# OS Files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Python Tools
+# -----------------------
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
