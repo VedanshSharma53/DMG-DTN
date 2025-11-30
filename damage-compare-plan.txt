@@ -1,0 +1,29 @@
+Plan for Comparing Car Videos
+
+1. Inputs
+   You need two video files:
+   - Video A: The car before the accident.
+   - Video B: The car after the accident.
+
+2. Step 1: Get Pictures
+   - Break both videos down into individual pictures.
+   - Take one picture for every second of video.
+
+3. Step 2: Find Damages
+   - Use the AI model we trained to look at the pictures from Video B (after accident).
+   - The model will look for dents, scratches, and cracks.
+   - Save the list of damages found and where they are in the picture.
+
+4. Step 3: Match Pictures
+   - For every picture in Video B where damage was found, try to find a picture in Video A that looks the same.
+   - This is to see what that part of the car looked like before.
+   - We can use basic image matching code to find the most similar picture.
+
+5. Step 4: Compare
+   - Check if the damage detected in Video B is visible in the matching picture from Video A.
+   - If the damage is only in Video B, it is new damage from the accident.
+   - If it is in both, it is old damage.
+
+6. Step 5: Report
+   - Create a simple list of new damages.
+   - Show the "Before" and "After" pictures side by side for proof.
