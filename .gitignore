@@ -54,3 +54,5 @@ pip-wheel-metadata/
 build/
 dist/
 *.egg-info/
+comparison_results/
+comparison_results/*
