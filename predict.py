@@ -5,7 +5,7 @@ import cv2
 model = YOLO('runs/detect/train2/weights/best.pt')
 
 # Option A: Predict on an Image
-results = model.predict('image.png', save=True, show=True)
+results = model.predict('datasets/images/train/000194.jpg', save=True, show=True)
 
 # Option B: Predict on a Video (Real-time)
 # video_path = "dent.mp4" # Replace with your video path
