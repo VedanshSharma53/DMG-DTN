@@ -1,0 +1,7 @@
+degrees: 10.0      # Rotate images slightly
+translate: 0.1     # Shift images left/right
+scale: 0.5         # Zoom in/out
+fliplr: 0.5        # Flip horizontal (cars look same mirrored)
+mosaic: 1.0        # Mix 4 images together (YOLO default, keep it)
+mixup: 0.1         # Mix 2 images together (helps confusion)
+copy_paste: 0.1    # Copy damage from one car to another
